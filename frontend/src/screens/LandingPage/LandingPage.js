@@ -4,6 +4,13 @@ import "./LandingPage.css";
 import { Link } from "react-router-dom";
 
 const LandingPage = () => {
+  // useEffect(() => {
+  //   const userInfo = localStorage.getItem("userInfo");
+
+  //   if (userInfo) {
+  //     navigate("/mynotes");
+  //   }
+  // }, [navigate]);
   return (
     <div className="main">
       <Container>

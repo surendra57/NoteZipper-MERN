@@ -1,0 +1,19 @@
+.cards {
+  box-shadow: 5px 6px 6px 2px #dddddd;
+
+  transition: all 0.2s ease;
+  cursor: pointer;
+}
+.mainDiv {
+  width: 40%;
+}
+/* .cards:hover {
+  box-shadow: 5px 6px 6px 2px #cfe4f8;
+  transform: scale(1.5);
+} */
+
+@media only screen and (max-width: 768px) {
+  .mainDiv {
+    width: 100%;
+  }
+}
